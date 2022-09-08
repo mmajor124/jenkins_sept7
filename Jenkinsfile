@@ -14,7 +14,7 @@ pipeline {
       steps {
       sh 'echo "HELLO TEST"'
       sh '''
-        echo "This list current dir"
+        echo "This list is the current dir"
         pwd
         '''
       }
